@@ -10,7 +10,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: white;
+    background: set-text-color($primary-color);
     @include easeOut;
   }
   // rotate into x with menu line
@@ -79,7 +79,7 @@
     .portrait {
       width: 250px;
       height: 250px;
-      background: url(../img/me.jpg);
+      background: url(../img/me.jpeg);
       border-radius: 50%; //makes circular
       border: 3px solid $secondary-color;
     }
@@ -102,7 +102,7 @@
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 300;
-    color: white;
+    color: set-text-color($primary-color);
     text-decoration: none;
     &:hover {
       color: $secondary-color;
